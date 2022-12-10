@@ -1,13 +1,10 @@
-echo "# first_repo" >> README.md
-
-git init
-
-git add README.md
-
-git commit -m "first commit"
-
-git branch -M main
-
-git remote add origin https://github.com/Sailian1/first_repo.git
-
-git push -u origin main
+echo mkdir new
+clear
+pwd
+git pull
+git add .
+git commit -m 'new commit'
+git log
+git checkout main
+git merge main
+git push
